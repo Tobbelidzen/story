@@ -1,4 +1,3 @@
-
 Kapitel 3
 	Ett spel för gallerierna
 
