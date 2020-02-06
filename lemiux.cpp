@@ -7,24 +7,18 @@ using namespace std;
 
 int main ()
 {
-    
     string innehallfiler[4] = {"G1-Presentation-CPP.md", "G3-Fordjupning-CPP.md", "G5-Konfliktlosning-CPP.md", "G6-Konfliktlosning-CPP.md"};
     ifstream filenin;
     ofstream filenut("Sammanslagenhistoria.md");
     string innehall = "";
     int i;
-    int z;
+    //int z;
 
-    
-
-	for(z=0 ; z<3 ; z=z+1){
-	        filenin.open(innehallfiler[z]);
+    	for(auto fil : innehallfiler){
+	        filenin.open(fil);
  		for(i=0 ; filenin.eof()!=true ; i++){
 			innehall += filenin.get();
 			cout << innehall;
-			
-		
-		
 } 
 filenin.close();
 }
