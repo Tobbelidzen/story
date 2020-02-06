@@ -7,7 +7,6 @@ Jag tror inte du förstår vad han menar detta är vårt bord du får hitta någ
 Ahh det gör jag men vad är gör det när vi alla kan dö när som helst.
 Ok men jag är Sean trevligt att träffas svarar han och sträcker ut tassen mot katten.
 katten ser chockad ut med tveksamt tar och skar tass men han maow svarade han.
-
 Efter har lunch så står maow och sean utanför skolhuset där Maow röker. 
 Så vad kan du säga om skolan frågar Sean plötsligt. 
 Maow tog ett bloss på sin cigarett och svarade.

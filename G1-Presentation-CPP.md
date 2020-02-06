@@ -10,8 +10,6 @@ Får sitter hela tiden med sin linux dator och är rädd för det mesta
 Hunden frågar efter sin lus tång och vill att vargen ska hämta den men vargen är borta i sin dagdröm så hunden slår till vargen
 Vargen är kär i fåret och dagdrömmer
 Hyenan är en yesman och skrattar åt allt
-
-
 Läraren: ”Go… morgo… klass…,  Jag skulle vilja introducera en ny student som ska vara med oss i ett tag, kan du inte berätta lite om dig själv?”
 ”Hej mitt namn är _______ och jag är en koala och är från Australien.”
 Hela klassen: ”Hej _______!”
