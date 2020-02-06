@@ -5,44 +5,61 @@ using namespace std;
 
 int main (){
 	fstream Bok;
-	fstream Present;
-	fstream Fordjup;
-	fstream Konflikt; 
-
-	string gruppett;
-	string grupptre;
-	string gruppsex;
+	string text[3] = {"G1-Presentation-CPP.md", "G3-Fordjupning-CPP.md", "G6-Konfliktlosning-CPP.md"};
+	string del[3];
 	int i;
 
+	for(int i=0;i<3;i++){
+		Bok.open(text[i], ios::in);
+		del[i] += Bok.get();
 
-	Present.open("G1-Presentation-CPP.md", ios::in);
-	for(i=0 ; Present.eof()!=true ; i++)
-	    gruppett += Present.get();
+		del[i].erase(del[i].end()-1);
+		Bok.close();
+	}
+
+
+//	Present.open("G1-Presentation-CPP.md", ios::in);
+//	for(i=0 ; Present.eof()!=true ; i++)
+//	    del[0] += Present.get();
 	
-	i--;
-	gruppett.erase(gruppett.end()-1);
-	Present.close();
+//	i--;
+//	del[0].erase(del[0].end()-1);
+//	Present.close();
 
-	Fordjup.open("G3-Fordjupning-CPP.md", ios::in);
-	for(i=0 ; Fordjup.eof()!=true ; i++)
-	    grupptre += Fordjup.get();
+//	Fordjup.open("G3-Fordjupning-CPP.md", ios::in);
+//	for(i=0 ; Fordjup.eof()!=true ; i++)
+//	    del[1] += Fordjup.get();
 	
-	i--;
-	grupptre.erase(grupptre.end()-1);
-	Fordjup.close();
+//	i--;
+//	del[1].erase(del[1].end()-1);
+//	Fordjup.close();
 
-	Konflikt.open("G6-Konfliktlosning-CPP.md", ios::in | ios::out);	
-	for(i=0 ; Konflikt.eof()!=true ; i++)
-	    gruppsex += Konflikt.get();
+//	Konflikt.open("G6-Konfliktlosning-CPP.md", ios::in | ios::out);	
+//	for(i=0 ; Konflikt.eof()!=true ; i++)
+//	    del[2] += Konflikt.get();
 
-	i--;
-	gruppsex.erase(gruppsex.end()-1);
-	Konflikt.close();
+//	i--;
+//	del[2].erase(del[2].end()-1);
+//	Konflikt.close();
 
 	Bok.open("Sammanslagen-historia.md", ios::in | ios::out);
-	Bok << gruppett << endl << endl << grupptre << endl << endl << gruppsex << endl;
+	Bok << del[0] << endl << endl << del[1] << endl << endl << del[2] << endl;
 	Bok.close();
+	cout << "Färdigt\n";
 	cout << "Boken är: " << i << " tecken lång\n";
 }
 
 
+//for(string current_line; getline(bok, current_line);) {
+//	cout << current_line;
+//	if current_line == "#Presentation"){
+//		bok << gruppett;
+//	}
+//}
+//for(int i=0;i<3;i++){
+//	bok.open(text[i], ios::in)
+//	del[i] +=bok.get();
+//i--;
+//del[i].erase(del[i].end()-1):
+//bok.close();
+//}
