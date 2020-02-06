@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -6,14 +7,27 @@ using namespace std;
 
 int main ()
 {
-    ifstream filenin("G3-Fordjupning-CPP.md");
+    
+    string innehallfiler[4] = {"G1-Presentation-CPP.md", "G3-Fordjupning-CPP.md", "G5-Konfliktlosning-CPP.md", "G6-Konfliktlosning-CPP.md"};
+    ifstream filenin;
     ofstream filenut("Sammanslagenhistoria.md");
     string innehall = "";
     int i;
+    int z;
 
-    for(i=0 ; filenin.eof()!=true ; i++)
-        innehall += filenin.get();
+    
 
+	for(z=0 ; z<3 ; z=z+1){
+	        filenin.open(innehallfiler[z]);
+ 		for(i=0 ; filenin.eof()!=true ; i++){
+			innehall += filenin.get();
+			cout << innehall;
+			
+		
+		
+} 
+filenin.close();
+}
     i--;
     innehall.erase(innehall.end()-1);     
 

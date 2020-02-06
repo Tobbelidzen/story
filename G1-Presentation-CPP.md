@@ -14,7 +14,7 @@ Hyenan är en yesman och skrattar åt allt
 
 Läraren: ”Go… morgo… klass…,  Jag skulle vilja introducera en ny student som ska vara med oss i ett tag, kan du inte berätta lite om dig själv?”
 ”Hej mitt namn är _______ och jag är en koala och är från Australien.”
-Hela klassen: ”Hej _______!”
+Hela klassen: ”Hej _______!” qweqw+
 
 
 

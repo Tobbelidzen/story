@@ -12,4 +12,4 @@ Efter har lunch så står maow och sean utanför skolhuset där Maow röker.
 Så vad kan du säga om skolan frågar Sean plötsligt. 
 Maow tog ett bloss på sin cigarett och svarade.
 Så du har biet bieatrice som är bisexuel hon kommer att dra upp det så fort du pratar med henne. Sedan finns det gorillan Harambe. Han brottare men har brutit benet så han går illa för tillfället.
-Sedan finns det bulldogen 
+Sedan finns det bulldogen gygyjgyujhj
